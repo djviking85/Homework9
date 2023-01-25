@@ -79,8 +79,9 @@ public class Main {
                 minTrati = arr[i];
             }
         }
-        double srednee = summaAll/30 ;
-        System.out.println("Средняя сумма трат за месяц составила - " + srednee+ " рублей");
+        double srednee = summaAll/ arr.length ;
+        System.out.println("Средняя сумма трат за месяц составила - "+
+                + srednee + " рублей");
         System.out.println(" Сумма трат за месяц составила - " +summaAll+ " рублей");
         System.out.println(" Максимальная сумма трат в ДЕНЬ - " + maxTrati + " рублей");
         System.out.println(" Минимальныая сумма потрачена в ДЕНЬ - " + minTrati + " рублей");
