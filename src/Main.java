@@ -87,20 +87,21 @@ public class Main {
     }
     public static void task4 () {
         System.out.println("Задача 4");
-         // В бухгалтерской книге появился баг.
+        // В бухгалтерской книге появился баг.
         // Что-то пошло нет так — фамилии и имена сотрудников начали
         // отображаться в обратную сторону. Т. е. вместо «Иванов Иван» мы имеем «навИ вонавИ».
         // Данные с именами сотрудников хранятся в виде массива символов — char[ ].
         //
         //Напишите код, который в случае такого бага будет выводить фамилии и имена сотрудников в корректном виде. В качестве данных для массива используйте:
-        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-                System.out.println(" как не должно быть  - " + Arrays.toString(reverseFullName));
-        for (int i = 10; i < reverseFullName.length ; i--) {
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        System.out.println(" как не должно быть  - " + Arrays.toString(reverseFullName));
+        for (var i = 10; i < reverseFullName.length; i--) {
             System.out.print(reverseFullName[i]);
             if (i == 0) {
-                break;}
+                {
+                    break;
+                }
 
+            }
         }
-        System.out.print("А теперь как надо  - " + Arrays.toString(reverseFullName));
-    }
-}
+    }}

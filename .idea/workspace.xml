@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87f28702-4be3-4cf8-983c-155f475a8774" name="Changes" comment="Homework9 т2">
+    <list default="true" id="87f28702-4be3-4cf8-983c-155f475a8774" name="Changes" comment="Homework9 проверяем ДЗ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -60,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674570484193</updated>
       <workItem from="1674570486329" duration="2894000" />
-      <workItem from="1674634478410" duration="8407000" />
+      <workItem from="1674634478410" duration="9414000" />
     </task>
     <task id="LOCAL-00001" summary="Homework9">
       <created>1674573643435</created>
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674643858048</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Homework9 проверяем ДЗ">
+      <created>1674649138599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674649138599</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework9" />
     <MESSAGE value="Homework9 т2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework9 т2" />
+    <MESSAGE value="Homework9 проверяем ДЗ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework9 проверяем ДЗ" />
   </component>
 </project>
