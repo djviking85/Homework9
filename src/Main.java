@@ -96,6 +96,7 @@ public class Main {
         //Напишите код, который в случае такого бага будет выводить фамилии и имена сотрудников в корректном виде. В качестве данных для массива используйте:
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         System.out.println(" как не должно быть  - " + Arrays.toString(reverseFullName));
+        System.out.print("как стало: ");
         for (var i = 10; i < reverseFullName.length; i--) {
             System.out.print(reverseFullName[i]);
             if (i == 0) {
